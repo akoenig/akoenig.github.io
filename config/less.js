@@ -17,7 +17,9 @@ module.exports = {
     parse: {
         paths: [
             './src/styles/',
-            './src/styles/modules'
+            './src/styles/modules',
+            './src/styles/layouts',
+            './src/styles/fonts'
         ]
     }
 };

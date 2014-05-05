@@ -26,6 +26,10 @@ rimraf.sync(config.paths.build);
 
 metalsmith
 
+    .use(plugins.metaobject(
+        config.metaobject
+    ))
+
     //
     // Stylesheet preprocessing (less)
     //

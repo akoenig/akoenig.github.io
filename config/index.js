@@ -17,3 +17,4 @@ exports.less = require('./less');
 exports.paths = require('./paths');
 exports.ignore = require('./ignore');
 exports.templates = require('./templates');
+exports.metaobject = require('./metaobject');

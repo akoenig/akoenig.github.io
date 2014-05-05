@@ -1,0 +1,53 @@
+/*
+ * akoenig.github.io
+ *
+ * Copyright(c) 2014 André König <andre.koenig@posteo.de>
+ * MIT Licensed
+ *
+ */
+
+/**
+ * @author André König <andre.koenig@posteo.de>
+ *
+ */
+
+.channels {
+    list-style-type:none;
+    margin-top:45px;
+    padding-bottom:45px;
+
+    > .channel-entry {
+        display:inline-block;
+        margin-left:20px;
+
+        &:first-child {
+            margin-left:0;
+        }
+
+        > .channel-entry--icon, .channel-entry--icon:before {
+            font-family: 'Mono Social Icons Font';
+            -webkit-text-rendering: optimizeLegibility;
+            -moz-text-rendering: optimizeLegibility;
+            -ms-text-rendering: optimizeLegibility;
+            -o-text-rendering: optimizeLegibility;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            -moz-font-smoothing: antialiased;
+            -ms-font-smoothing: antialiased;
+            -o-font-smoothing: antialiased;
+            font-smoothing: antialiased;
+        }
+
+        > .channel-entry--icon {
+            border:2px solid #fff;
+            border-radius:50%;
+            display:block;
+            color:#fff;
+            font-size:220%;
+            line-height:40px;
+            height:40px;
+            text-decoration:none;
+            width:40px;
+        }
+    }
+}

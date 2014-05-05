@@ -1,7 +1,10 @@
 <!doctype html>
 <html>
     <head>
+        {{> meta}}
         <title></title>
+
+        {{> styles}}
     </head>
     <body>
         {{{ contents }}}

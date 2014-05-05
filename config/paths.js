@@ -13,6 +13,10 @@
 
 'use strict';
 
+var path = require('path');
+
 module.exports = {
-    build: './build'
+    build: path.join('.', 'build'),
+    templates: path.join(__dirname, '..', 'templates'),
+    partialsDir: 'partials'
 };

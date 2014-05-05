@@ -52,4 +52,4 @@ metalsmith
 
     .destination(config.paths.build)
 
-    .build();   
+    .build();

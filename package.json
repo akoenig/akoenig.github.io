@@ -20,7 +20,13 @@
   },
   "homepage": "http://andrekoenig.info",
   "devDependencies": {
+    "bunchitos": "^0.1.1",
+    "handlebars": "^2.0.0-alpha.2",
     "metalsmith": "^0.7.0",
-    "metalsmith-less": "^0.1.1"
+    "metalsmith-ignore": "^0.1.2",
+    "metalsmith-less": "^0.1.1",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-templates": "^0.5.0",
+    "rimraf": "^2.2.6"
   }
 }

@@ -1,0 +1,26 @@
+{
+  "name": "akoenig.github.io",
+  "version": "1.0.0",
+  "description": "andrekoenig.info",
+  "author": {
+    "name": "André König",
+    "email": "andre.koenig@posteo.de"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://akoenig@github.com/akoenig/akoenig.github.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akoenig/akoenig.github.io/issues"
+  },
+  "homepage": "http://andrekoenig.info",
+  "devDependencies": {
+    "metalsmith": "^0.7.0",
+    "metalsmith-less": "^0.1.1"
+  }
+}

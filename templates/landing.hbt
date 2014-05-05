@@ -7,9 +7,13 @@
         {{> styles}}
     </head>
     <body>
+        <div class="hacking">
+            <p class="hacking-message">{{waiting}}</p>
+        </div>
+
         <div class="fully fully-overlayed">
             <img class="fully--image"
-                 src="images/fully-nyc.jpg"
+                 data-src="images/fully-nyc.jpg"
                  alt="New York City Skyline">
         </div>
 
@@ -36,5 +40,7 @@
                 {{/each}}
             </ul>
         </div>
+
+        {{>scripts}}
     </body>
 </html>

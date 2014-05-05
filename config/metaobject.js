@@ -14,7 +14,8 @@
 'use strict';
 
 module.exports = {
-    name: "André König, full stack software engineer & user interface designer.",
+    name: 'André König, full stack software engineer & user interface designer.',
+    waiting: 'hacking ...',
     channels: [
         {
             icon: '&#xe037;', // monosocialiconsfont
@@ -34,7 +35,7 @@ module.exports = {
         {
             icon: '&#xe095;',
             title: 'André on XING with a bow tie. Just kidding :)',
-            uri: 'http://xing.com/akoenig'
+            uri: 'https://www.xing.com/profile/Andre_Koenig23'
         }
     ]
 };

@@ -6,4 +6,4 @@ template: landing.hbt
 
 # André König
 
-full stack **software engineer** & user interface **designer** who loves to connect **people** and **robots**
+full stack **software engineer** & user interface **designer** who loves to bring **people** and **robots** together.

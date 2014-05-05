@@ -23,6 +23,25 @@
         margin:0 auto;
         position:relative;
         top:10%;
-        transform:translateY(-10%);
+
+        &:hover + .logo--avatar {
+            height:117px;
+            margin:-52px auto;
+            width:105px;
+        }
+    }
+
+    > .logo--avatar {
+        display:block;
+        height:0;
+        width:0;
+        margin:0 auto;
+        position:relative;
+        top:-50px;
+        pointer-events:none;
+
+        transition-duration:.2s;
+        transition-property:all;
+        transition-timing-function:ease-out;
     }
 }

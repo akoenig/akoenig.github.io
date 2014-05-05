@@ -15,7 +15,13 @@
 
         <div class="landing-layout">
             <div class="logo">
-                <img class="logo--blip" src="images/emblem.png" alt="A little emblem">
+                <img class="logo--blip"
+                     src="images/blip.png"
+                     alt="A little emblem with my hair styling">
+
+                <img class="logo--avatar"
+                      src="images/avatar.png"
+                      alt="Me in real life">
             </div>
 
             <article class="article">

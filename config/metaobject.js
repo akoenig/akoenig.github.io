@@ -36,6 +36,11 @@ module.exports = {
             icon: '&#xe095;',
             title: 'André on XING with a bow tie. Just kidding :)',
             uri: 'https://www.xing.com/profile/Andre_Koenig23'
+        },
+        {
+            icon: '&#xe024;',
+            title: 'I love the good old email. Drop me a line.',
+            uri: 'mailto:akoenig@posteo.de'
         }
     ]
 };

@@ -14,6 +14,10 @@ After that you are able to build this thingy via
 
 ## Changelog
 
+### Version 1.0.1 (20140505)
+
+- Added email address.
+
 ### Version 1.0.0 (20140505)
 
 - Realized the single page website which provides a little description about me and points to different social channels.

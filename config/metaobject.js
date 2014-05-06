@@ -38,6 +38,11 @@ module.exports = {
             uri: 'https://www.xing.com/profile/Andre_Koenig23'
         },
         {
+            icon: '&#xe044;',
+            title: "Like what I'm doing? I appreciate Gittips.",
+            uri: 'https://www.gittip.com/akoenig'
+        },
+        {
             icon: '&#xe024;',
             title: 'I love the good old email. Drop me a line.',
             uri: 'mailto:akoenig@posteo.de'

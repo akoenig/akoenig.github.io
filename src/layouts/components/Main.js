@@ -11,9 +11,12 @@
  *
  */
 
-import Typography from "typography";
-import moragaTheme from "typography-theme-moraga";
+import React from "react";
+import styled from "styled-components";
 
-const typography = new Typography(moragaTheme);
+const Main = styled.main`
+  display: flex;
+  flex: 1;
+`;
 
-export default typography;
+export { Main };

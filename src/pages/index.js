@@ -1,5 +1,5 @@
 /*
- * @akoenig/blog
+ * @akoenig/website
  *
  * Copyright(c) 2017 André König <andre.koenig@gmail.com>
  * MIT Licensed
@@ -31,7 +31,7 @@ const IndexPage = () => (
     </section>
     <section className="IndexPage__intro">
       <h2 className="IndexPage__intro__headline">
-        Hi – I'm <strong>André</strong> and I design & develop software{" "}
+        Hi – I'm <strong>André</strong> and I design & develop software
         <span className="IndexPage__intro__headline__cursor">&nbsp;</span>
       </h2>
       <hr className="IndexPage__intro__delimiter" />
@@ -54,27 +54,6 @@ const IndexPage = () => (
         </h4>
       </div>
     </section>
-    <footer>
-      <section className="footer__inner">
-        <p className="footer__author">
-          <strong>André König</strong>{" "}
-          <small>
-            | Freelance Software Architect &amp; Engineer{" "}
-            <a className="footer__hire" href="#">
-              Let's work together
-            </a>
-          </small>
-        </p>
-        <ul className="footer__icons">
-          <li className="footer__icons__icon">
-            <GitHubIcon />
-          </li>
-          <li className="footer__icons__icon">
-            <TwitterIcon />
-          </li>
-        </ul>
-      </section>
-    </footer>
   </div>
 );
 

@@ -11,21 +11,21 @@
  *
  */
 
-import React from "react";
-import styled from "styled-components";
-import { Contact } from "../../shared/Contact";
+import React from 'react'
+import styled from 'styled-components'
+import { Contact } from '../../shared/Contact'
 
 const Menu = styled.ul`
   list-style-type: none;
   padding-left: 1rem;
   margin: 0;
-`;
+`
 
 const MenuItem = styled.li`
   display: inline-block;
   margin: 0;
   margin-right: 1rem;
-`;
+`
 
 const MenuItemLink = styled.a`
   border-bottom: 1px solid transparent;
@@ -43,7 +43,7 @@ const MenuItemLink = styled.a`
     color: rgba(0, 0, 0, 0.8);
     text-decoration: none;
   }
-`;
+`
 
 const Navigation = () => (
   <Menu>
@@ -58,6 +58,6 @@ const Navigation = () => (
       </MenuItemLink>
     </MenuItem>
   </Menu>
-);
+)
 
-export { Navigation };
+export { Navigation }

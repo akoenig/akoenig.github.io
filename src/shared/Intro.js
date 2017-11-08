@@ -11,12 +11,12 @@
  *
  */
 
-import React from "react";
-import styled from "styled-components";
+import React from 'react'
+import styled from 'styled-components'
 
-import { Cursor } from "./Cursor";
+import { Cursor } from './Cursor'
 
-const Wrapper = styled.section`padding-top: 3rem;`;
+const Wrapper = styled.section`padding-top: 3rem;`
 
 const Headline = styled.h2`
   color: rgba(0, 0, 0, 0.6);
@@ -30,7 +30,7 @@ const Headline = styled.h2`
     color: #f44336;
     font-weight: 300;
   }
-`;
+`
 
 const Intro = () => (
   <Wrapper>
@@ -40,6 +40,6 @@ const Intro = () => (
       <Cursor />
     </Headline>
   </Wrapper>
-);
+)
 
-export { Intro };
+export { Intro }

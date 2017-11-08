@@ -11,13 +11,13 @@
  *
  */
 
-import React from "react";
-import styled from "styled-components";
+import React from 'react'
+import styled from 'styled-components'
 
 const Header = styled.header`
   display: flex;
   align-items: center;
   margin-top: 1.8em;
-`;
+`
 
-export { Header };
+export { Header }

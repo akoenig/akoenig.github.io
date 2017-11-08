@@ -11,7 +11,7 @@
  *
  */
 
-import styled, { keyframes } from "styled-components";
+import styled, { keyframes } from 'styled-components'
 
 const blink = keyframes`
   0% {
@@ -23,7 +23,7 @@ const blink = keyframes`
   100% {
     opacity: 0;
   }
-`;
+`
 
 const Cursor = styled.span`
   animation: ${blink} 1.6s infinite ease-in-out;
@@ -33,8 +33,8 @@ const Cursor = styled.span`
   width: 3px;
 
   &:before {
-    content: "\\200b";
+    content: '\\200b';
   }
-`;
+`
 
-export { Cursor };
+export { Cursor }

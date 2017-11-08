@@ -11,13 +11,13 @@
  *
  */
 
-import React from "react";
-import styled from "styled-components";
+import React from 'react'
+import styled from 'styled-components'
 
-import { Github as GitHubIcon, Twitter as TwitterIcon } from "react-feather";
+import { Github as GitHubIcon, Twitter as TwitterIcon } from 'react-feather'
 
-import { Contact } from "../../shared/Contact";
-import { Social, SocialIcon, SocialLink } from "./Social";
+import { Contact } from '../../shared/Contact'
+import { Social, SocialIcon, SocialLink } from './Social'
 
 const Wrapper = styled.footer`
   border-top: 1px solid rgba(0, 0, 0, 0.03);
@@ -28,14 +28,14 @@ const Wrapper = styled.footer`
   font-size: 80%;
   max-width: 740px;
   padding: 0.4em 0;
-`;
+`
 
 const Title = styled.section`
   align-items: center;
   display: flex;
   margin: 0;
   padding: 0;
-`;
+`
 
 const Me = styled.strong`
   font-size: 80%;
@@ -43,9 +43,9 @@ const Me = styled.strong`
   display: inline-block;
   margin-left: 0.4em;
   margin-right: 0.4em;
-`;
+`
 
-const Claim = styled.small``;
+const Claim = styled.small``
 
 const Hire = styled.span`
   border: 1px solid #f44336;
@@ -73,7 +73,7 @@ const Hire = styled.span`
     margin: 0;
     text-align: center;
   }
-`;
+`
 
 const Footer = () => (
   <Wrapper>
@@ -99,6 +99,6 @@ const Footer = () => (
       </SocialIcon>
     </Social>
   </Wrapper>
-);
+)
 
-export { Footer };
+export { Footer }

@@ -11,19 +11,19 @@
  *
  */
 
-import React from "react";
-import styled from "styled-components";
+import React from 'react'
+import styled from 'styled-components'
 
-import Mailto from "react-mailto";
+import Mailto from 'react-mailto'
 
 const ContactLink = styled(Mailto)`
   &:hover {
     text-decoration: none;
   }
-`;
+`
 
 const Contact = ({ children }) => (
   <ContactLink email="hello@andrekoenig.de">{children}</ContactLink>
-);
+)
 
-export { Contact };
+export { Contact }

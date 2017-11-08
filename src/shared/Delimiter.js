@@ -11,13 +11,13 @@
  *
  */
 
-import styled from "styled-components";
+import styled from 'styled-components'
 
 const Delimiter = styled.hr`
   background: rgba(0, 0, 0, 0.1);
   margin-top: 3rem;
   height: 2px;
   width: 20%;
-`;
+`
 
-export { Delimiter };
+export { Delimiter }

@@ -14,47 +14,26 @@
 import React from "react";
 import Link from "gatsby-link";
 
-import { Github as GitHubIcon, Twitter as TwitterIcon } from "react-feather";
+import styled, { keyframes } from "styled-components";
+
+import { Intro } from "../shared/Intro";
+import { Delimiter } from "../shared/Delimiter";
+import { LatestArticles } from "../shared/LatestArticles";
 
 import "./index.css";
 
-const IndexPage = () => (
-  <div className="IndexPage">
-    <section className="Header">
-      <h1 className="Header__logo">👑</h1>
+const Wrapper = styled.div`
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 740px;
+`;
 
-      <ul className="Header__navigation">
-        <li className="Header__navigation__item">Articles</li>
-        <li className="Header__navigation__item">About</li>
-        <li className="Header__navigation__item">Contact</li>
-      </ul>
-    </section>
-    <section className="IndexPage__intro">
-      <h2 className="IndexPage__intro__headline">
-        Hi – I'm <strong>André</strong> and I design & develop software
-        <span className="IndexPage__intro__headline__cursor">&nbsp;</span>
-      </h2>
-      <hr className="IndexPage__intro__delimiter" />
-    </section>
-    <section className="IndexPage__blog">
-      <h3 className="IndexPage__blog__headline">Latest Article</h3>
-
-      <div className="IndexPage__blog__meta">
-        <span className="IndexPage__blog__articleDate">2nd October 2017</span>
-
-        <ul className="IndexPage__blog__tags">
-          <li className="IndexPage__blog__tags__tag">GraphQL</li>
-          <li className="IndexPage__blog__tags__tag">React</li>
-          <li className="IndexPage__blog__tags__tag">Apollo</li>
-        </ul>
-      </div>
-      <div className="IndexPage__blog__article">
-        <h4 className="IndexPage__blog__article__headline">
-          react-apollo: An approach for handling errors globally
-        </h4>
-      </div>
-    </section>
-  </div>
+const Index = () => (
+  <Wrapper>
+    <Intro />
+    <Delimiter />
+    <LatestArticles />
+  </Wrapper>
 );
 
-export default IndexPage;
+export default Index;

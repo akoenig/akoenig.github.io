@@ -13,8 +13,8 @@
 
 import React from "react";
 
-import { Logo } from "../components";
-
+import { Logo } from "./components/Logo";
+import { Navigation } from "./components/Navigation";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Main } from "./components/Main";
@@ -24,6 +24,7 @@ export default ({ children }) => (
   <Screen>
     <Header>
       <Logo />
+      <Navigation />
     </Header>
     <Main>{children()}</Main>
     <Footer />

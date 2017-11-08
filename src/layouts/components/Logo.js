@@ -14,17 +14,20 @@
 import React from "react";
 import styled from "styled-components";
 
-const Logo = styled.h1`
-  align-items: center;
-  border: 1px solid rgba(0, 0, 0, 0.5);
-  display: flex;
-  font-size: 60%;
-  font-weight: 400;
-  height: 20px;
+import logo from "./Logo.svg";
+
+const Wrapper = styled.a``;
+
+const Image = styled.img`
+  width: 30px;
+  height: 30px;
   margin: 0;
-  justify-content: center;
-  text-transform: uppercase;
-  width: 20px;
 `;
+
+const Logo = () => (
+  <Wrapper href="/">
+    <Image src={logo} />
+  </Wrapper>
+);
 
 export { Logo };

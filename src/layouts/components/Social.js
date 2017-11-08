@@ -23,7 +23,7 @@ const Social = styled.ul`
 const SocialIcon = styled.li`
   display: flex;
   margin: 0;
-  margin-left: 0.4em;
+  margin-left: 0.6em;
   padding: 0;
 
   &:first-child {
@@ -42,4 +42,13 @@ const SocialIcon = styled.li`
   }
 `;
 
-export { Social, SocialIcon };
+const SocialLink = styled.a`
+  color: rgba(0, 0, 0, 0.3);
+  transition: color 0.2s ease-in-out;
+
+  &:hover {
+    color: rgba(0, 0, 0, 0.8);
+  }
+`;
+
+export { Social, SocialIcon, SocialLink };

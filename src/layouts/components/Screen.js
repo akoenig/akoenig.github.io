@@ -11,17 +11,17 @@
  *
  */
 
-import React from 'react'
-import styled from 'styled-components'
+import React from "react";
+import styled from "styled-components";
 
 const Screen = styled.div`
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  padding: 0 0.8rem;
+  padding: 0 0.8rem 2rem;
   max-width: 740px;
   min-height: 100vh;
-`
+`;
 
-export { Screen }
+export { Screen };

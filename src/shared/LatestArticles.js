@@ -11,44 +11,44 @@
  *
  */
 
-import React from 'react'
-import styled from 'styled-components'
+import React from "react";
+import styled from "styled-components";
 
-const Wrapper = styled.section`padding-top: 1rem;`
+const Wrapper = styled.section`padding-top: 1rem;`;
 
 const Headline = styled.h3`
   color: rgba(0, 0, 0, 0.8);
   font-size: 70%;
   font-weight: 800;
   text-transform: uppercase;
-`
+`;
 
 const Articles = styled.ul`
   list-style-type: none;
   margin: 0;
   padding: 0;
-`
+`;
 
-const Article = styled.li``
+const Article = styled.li``;
 
 const ArticleMeta = styled.div`
   align-items: center;
   display: flex;
   line-height: 0.9em;
-`
+`;
 
 const ArticlePublicationDate = styled.span`
   color: #f44336;
   font-size: 70%;
   font-weight: 100;
-`
+`;
 
 const ArticleTags = styled.ul`
   font-size: 70%;
   list-style-type: none;
   margin: 0 0 0 1.5em;
   padding: 0;
-`
+`;
 
 const ArticleTag = styled.li`
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -58,7 +58,7 @@ const ArticleTag = styled.li`
   font-size: 80%;
   margin: 0 1em 0 0;
   padding: 0.2em 0.4em;
-`
+`;
 
 const ArticleHeadline = styled.a`
   border-bottom: 1px solid transparent;
@@ -77,13 +77,29 @@ const ArticleHeadline = styled.a`
     text-decoration: none;
     color: #000;
   }
-`
+`;
 
 const LatestArticles = () => (
   <Wrapper>
     <Headline>Latest Articles</Headline>
 
     <Articles>
+      <Article>
+        <ArticleMeta>
+          <ArticlePublicationDate>13th February 2018</ArticlePublicationDate>
+          <ArticleTags>
+            <ArticleTag>Prisma</ArticleTag>
+            <ArticleTag>GraphQL</ArticleTag>
+            <ArticleTag>Kubernetes</ArticleTag>
+          </ArticleTags>
+        </ArticleMeta>
+        <ArticleHeadline
+          href="https://dev.to/andre/deploying-a-prisma-cluster-to-kubernetes--3lbi"
+          target="_blank"
+        >
+          Deploying a Prisma cluster to Kubernetes
+        </ArticleHeadline>
+      </Article>
       <Article>
         <ArticleMeta>
           <ArticlePublicationDate>10th October 2017</ArticlePublicationDate>
@@ -119,9 +135,9 @@ const LatestArticles = () => (
       </Article>
     </Articles>
   </Wrapper>
-)
+);
 
-export { LatestArticles }
+export { LatestArticles };
 
 /*
     <section className="IndexPage__blog">

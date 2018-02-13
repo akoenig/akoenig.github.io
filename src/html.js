@@ -59,6 +59,9 @@ module.exports = class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
+          <title>
+            André König - Freelance Software Architect &amp; Software Engineer
+          </title>
           {drift}
           {this.props.headComponents}
           {css}

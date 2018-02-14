@@ -84,7 +84,7 @@ const LatestArticles = () => (
     <Articles>
       <Article>
         <ArticleMeta>
-          <ArticlePublicationDate>13th February 2018</ArticlePublicationDate>
+          <ArticlePublicationDate>14th February 2018</ArticlePublicationDate>
           <ArticleTags>
             <ArticleTag>GraphQL</ArticleTag>
             <ArticleTag>Error handling</ArticleTag>

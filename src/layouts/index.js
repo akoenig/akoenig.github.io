@@ -11,22 +11,28 @@
  *
  */
 
-import React from 'react'
+import React from "react";
 
-import { Logo } from './components/Logo'
-import { Navigation } from './components/Navigation'
-import { Footer } from './components/Footer'
-import { Header } from './components/Header'
-import { Main } from './components/Main'
-import { Screen } from './components/Screen'
+import styled from "styled-components";
+
+import { Background } from "./components/Background";
+import { Logo } from "./components/Logo";
+import { Navigation } from "./components/Navigation";
+import { Footer } from "./components/Footer";
+import { Header } from "./components/Header";
+import { Main } from "./components/Main";
+import { Screen } from "./components/Screen";
 
 export default ({ children }) => (
-  <Screen>
-    <Header>
-      <Logo />
-      <Navigation />
-    </Header>
-    <Main>{children()}</Main>
-    <Footer />
-  </Screen>
-)
+  <div>
+    <Background />
+    <Screen>
+      <Header>
+        <Logo />
+        <Navigation />
+      </Header>
+      <Main>{children()}</Main>
+      <Footer />
+    </Screen>
+  </div>
+);

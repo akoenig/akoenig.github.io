@@ -20,6 +20,7 @@ const Screen = styled.div`
   flex-direction: column;
   margin: 0 auto;
   padding: 0 0.8rem 2rem;
+  position: relative;
   max-width: 740px;
   min-height: 100vh;
 `;

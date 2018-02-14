@@ -17,7 +17,6 @@ import Link from "gatsby-link";
 import styled, { keyframes } from "styled-components";
 
 import { Intro } from "../shared/Intro";
-import { Delimiter } from "../shared/Delimiter";
 import { LatestArticles } from "../shared/LatestArticles";
 
 const Wrapper = styled.div`
@@ -29,7 +28,6 @@ const Wrapper = styled.div`
 const Index = () => (
   <Wrapper>
     <Intro />
-    <Delimiter />
     <LatestArticles />
   </Wrapper>
 );

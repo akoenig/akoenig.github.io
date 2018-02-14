@@ -14,7 +14,10 @@
 import React from "react";
 import styled from "styled-components";
 
-const Wrapper = styled.section`padding-top: 1rem;`;
+const Wrapper = styled.section`
+  background: rgba(255, 255, 255, 0.8);
+  padding: 2rem 0.5rem 0;
+`;
 
 const Headline = styled.h3`
   color: rgba(0, 0, 0, 0.8);

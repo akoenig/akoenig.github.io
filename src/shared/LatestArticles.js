@@ -62,8 +62,7 @@ const ArticleTag = styled.li`
 
 const ArticleHeadline = styled.a`
   border-bottom: 1px solid transparent;
-  font-weight: 100;
-  font-size: 100%;
+  font-size: 90%;
   display: inline-block;
   cursor: pointer;
   color: rgba(0, 0, 0, 0.6);
@@ -82,14 +81,28 @@ const ArticleHeadline = styled.a`
 const LatestArticles = () => (
   <Wrapper>
     <Headline>Latest Articles</Headline>
-
     <Articles>
       <Article>
         <ArticleMeta>
           <ArticlePublicationDate>13th February 2018</ArticlePublicationDate>
           <ArticleTags>
-            <ArticleTag>Prisma</ArticleTag>
             <ArticleTag>GraphQL</ArticleTag>
+            <ArticleTag>Error handling</ArticleTag>
+          </ArticleTags>
+        </ArticleMeta>
+        <ArticleHeadline
+          href="https://dev.to/andre/handling-errors-in-graphql--2ea3"
+          target="_blank"
+        >
+          Handling errors in GraphQL
+        </ArticleHeadline>
+      </Article>
+      <Article>
+        <ArticleMeta>
+          <ArticlePublicationDate>13th February 2018</ArticlePublicationDate>
+          <ArticleTags>
+            <ArticleTag>GraphQL</ArticleTag>
+            <ArticleTag>Prisma</ArticleTag>
             <ArticleTag>Kubernetes</ArticleTag>
           </ArticleTags>
         </ArticleMeta>

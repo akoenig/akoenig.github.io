@@ -11,23 +11,24 @@
  *
  */
 
-import React from 'react'
-import styled from 'styled-components'
+import React from "react";
+import Link from "gatsby-link";
+import styled from "styled-components";
 
-import logo from './Logo.svg'
+import logo from "./Logo.svg";
 
-const Wrapper = styled.a``
+const Wrapper = styled.a``;
 
 const Image = styled.img`
   width: 30px;
   height: 30px;
   margin: 0;
-`
+`;
 
 const Logo = () => (
-  <Wrapper href="/">
+  <Link to="/" style={{ outline: "none" }}>
     <Image src={logo} />
-  </Wrapper>
-)
+  </Link>
+);
 
-export { Logo }
+export { Logo };

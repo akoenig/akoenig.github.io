@@ -11,14 +11,18 @@
  *
  */
 
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const Social = styled.ul`
   display: flex;
   margin: 0;
   padding: 0;
   list-style-type: none;
-`
+
+  @media (max-width: 390px) {
+    display: none;
+  }
+`;
 
 const SocialIcon = styled.li`
   display: flex;
@@ -40,15 +44,16 @@ const SocialIcon = styled.li`
   &:hover svg {
     fill: #f44336;
   }
-`
+`;
 
 const SocialLink = styled.a`
   color: rgba(0, 0, 0, 0.3);
   transition: color 0.2s ease-in-out;
 
   &:hover {
-    color: rgba(0, 0, 0, 0.8);
+    color: #f44336;
+    text-decoration: none;
   }
-`
+`;
 
-export { Social, SocialIcon, SocialLink }
+export { Social, SocialIcon, SocialLink };

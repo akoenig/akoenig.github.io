@@ -87,6 +87,22 @@ const LatestArticles = () => (
     <Articles>
       <Article>
         <ArticleMeta>
+          <ArticlePublicationDate>10th July 2019</ArticlePublicationDate>
+          <ArticleTags>
+            <ArticleTag>Kubernetes</ArticleTag>
+            <ArticleTag>Knative</ArticleTag>
+            <ArticleTag>Serverless</ArticleTag>
+          </ArticleTags>
+        </ArticleMeta>
+        <ArticleHeadline
+          href="https://dev.to/andre/first-impressions-of-knative-eventing-bn5"
+          target="_blank"
+        >
+          First Impressions of Knative Eventing
+        </ArticleHeadline>
+      </Article>
+      <Article>
+        <ArticleMeta>
           <ArticlePublicationDate>14th February 2018</ArticlePublicationDate>
           <ArticleTags>
             <ArticleTag>GraphQL</ArticleTag>

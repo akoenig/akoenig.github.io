@@ -23,6 +23,7 @@ const Wrapper = styled.div`
   box-sizing: border-box;
   margin: 0 auto;
   max-width: 740px;
+  padding-bottom: 50px;
 `;
 
 const Index = () => (

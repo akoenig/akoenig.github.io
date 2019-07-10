@@ -12,11 +12,12 @@
  */
 
 import React from "react";
+import Link from "gatsby-link";
 import styled from "styled-components";
 
 import { Github as GitHubIcon, Twitter as TwitterIcon } from "react-feather";
 
-import { Contact } from "../../shared/Contact";
+import { Email } from "../../shared/Email";
 import { Social, SocialIcon, SocialLink } from "./Social";
 
 const Wrapper = styled.footer`
@@ -53,6 +54,8 @@ const Me = styled.strong`
   font-weight: 600;
   display: inline-block;
   margin-right: 0.4em;
+
+  align-self: flex-start;
 `;
 
 const Claim = styled.small``;
@@ -92,21 +95,39 @@ const Footer = () => (
         <Me>André König</Me>
         <Claim>
           Freelance Software Architect &amp; Engineer
-          <Contact>
+          <Email>
             <Hire>Let's work together!</Hire>
-          </Contact>
+          </Email>
         </Claim>
       </Title>
       <Social>
         <SocialIcon>
-          <SocialLink href="https://github.com/akoenig">
-            <GitHubIcon />
-          </SocialLink>
+          <SocialLink href="https://github.com/akoenig">GitHub</SocialLink>
         </SocialIcon>
         <SocialIcon>
           <SocialLink href="https://twitter.com/binarycereals">
-            <TwitterIcon />
+            Twitter
           </SocialLink>
+        </SocialIcon>
+        <SocialIcon>
+          <SocialLink href="https://www.xing.com/profile/Andre_Koenig23/cv">
+            XING
+          </SocialLink>
+        </SocialIcon>
+        <SocialIcon>
+          <Link
+            to="/imprint"
+            style={{
+              color: "rgba(0, 0, 0, 0.3)",
+              outline: "none",
+              textDecoration: "none"
+            }}
+            activeStyle={{
+              color: "#f44336"
+            }}
+          >
+            Imprint
+          </Link>
         </SocialIcon>
       </Social>
     </Content>

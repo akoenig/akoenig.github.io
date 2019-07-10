@@ -1,0 +1,7 @@
+# Redirect domain aliases to primary domain
+https://www.andrekoenig.dev/* https://andrekoenig.de/:splat 301!
+https://andrekoenig.dev/* https://andrekoenig.de/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://accountant-tune-61324.netlify.com/* https://andrekoenig.de/:splat 301!
+

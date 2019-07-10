@@ -13,7 +13,7 @@
 
 import React from "react";
 
-import styled from "styled-components";
+import styled, { injectGlobal } from "styled-components";
 
 import { Background } from "./components/Background";
 import { Logo } from "./components/Logo";
@@ -22,6 +22,10 @@ import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Main } from "./components/Main";
 import { Screen } from "./components/Screen";
+
+injectGlobal`
+html, body { height: 100%; }
+`;
 
 export default ({ children }) => (
   <div>

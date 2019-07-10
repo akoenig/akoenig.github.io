@@ -54,13 +54,13 @@ const Imprint = () => (
     <Address>
       <AddressTitle>Angaben gemäß § 5 TMG:</AddressTitle>
       André König<br />
-      Kielmannseggstraße 67<br />
-      22043 Hamburg
+      Madacker 18<br />
+      22397 Hamburg
       <Vat>USt-IdNr.: DE309947639</Vat>
     </Address>
     <Contact>
       <ContactTitle>Kontakt:</ContactTitle>
-      Telefon: +49 157 3011 4911 <br />
+      Telefon: +49 176 4589 2812 <br />
       E-Mail: <Email>hello (at) andrekoenig.de</Email>
     </Contact>
     <Disclaimer>
